@@ -2,6 +2,7 @@
 Test task from Sibers
 
 [Beginning of work](#start) 
+
 [Architecture description](#start) 
 
 <a name="start"><h2>Beginning of work</h2></a>  
@@ -11,7 +12,7 @@ Test task from Sibers
 
 <a name="start"><h2>Architecture description</h2></a>
 
-![Image alt](https://github.com/AlexandrBuilder/SIBERS_TEST/raw/1/image/architecture)
+![Image alt](https://github.com/AlexandrBuilder/image/blob/master/image/architecture.PNG)
 
 
 
