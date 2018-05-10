@@ -22,3 +22,13 @@ Test task from Sibers
 - db.php - file for specifying connection parameters to the database
 - routes.php - url parameter creation file
 
+**core** - main folder
+- Controller.php - abstract class forming the basic functions of the controllers
+- Model.php - abstract class forming the basic functions of models
+- View.php - class forming functions of the views
+- Router.php - class forming work with URL requests
+
+**lib** - contains auxiliary classes and sets of functions
+- Db.php - class forming connection to the database and queries to it
+- Pagination.php - class forming pagination
+- Dev.php - auxiliary functions for debugging
