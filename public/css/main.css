@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+	height: 100%;
+	outline:none;
+}
+body {
+  	height: 100%;
+  	font-family: Tahoma, Verdana, Arial, sans-serif;
+	background: #eee; 
+}
+input, textarea {outline: none;}
+.wrapper {
+  	position: relative;
+  	min-height: 100%;
+}
+.header {
+	height: 80px;
+	border-bottom: 10px solid #616868;
+	background: #b3dbdd;
+}
+.header span.title {
+	display: inline-block;
+	margin: 7px 0 0 10%;
+	font-size: 48px;
+	color: #616868;
+}
+.logout {
+	display: inline-block;
+	float: right;
+	margin: 30px 10% 0 0;
+	color: #616868;
+}
+.logout a {
+	color: #616868;
+	text-decoration: none;
+}
+.logout a:hover {
+	color: #404646;
+	text-decoration: underline;
+}
+.content {padding-bottom: 90px;}
+.add {
+	display: inline-block;
+	margin-top: 30px;
+	text-decoration: none;
+	margin-left: 5%;
+	padding: 8px 20px;
+	border: 2px solid #616868;
+	border-radius: 5px;
+	background: #b3dbdd;
+	color: #505757;
+}
+.add em{
+	font-style: normal;
+	font-size: 20px;
+	line-height: 12px;
+}
+.add:hover {
+	border-color: #838a8a;
+}
+.wrap-table {text-align: center;}
+.table {
+	margin:10px auto 0;
+	width: 90%;
+	border-radius: 10px;
+	border-collapse: collapse;
+	text-align: center;
+}
+.table th,
+.table td {
+	padding-top: 5px 0 7px 0;
+	border: 2px solid #727979;
+}
+.table th {
+	background: #aaa;
+	padding: 5px 0; 
+}
+.table tr:hover {
+	background: #ddd;
+}
+td.img-fon {
+	padding: 0;
+}
+td.img-fon a{
+	display: block;
+	padding: 4px 30px 0;
+}
+.helpers{
+	width: 70px;
+}
+.wrap-pagination {
+	margin: 30px 0;
+	text-align: center;
+}
+.pagination li{
+	display: inline-block;
+}
+.pagination li span,
+.pagination li a{
+	display: inline-block;
+	margin:0 5px;
+	padding: 5px 10px;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 2px solid #404646;
+	color: #333;
+}
+.pagination li a:hover{
+	color: #80a8aa;
+}
+.pagination .active span{
+	background: #404646;
+	color: #b3dbdd;
+}
+.footer {
+  	position: absolute;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	height: 80px;
+  	background: #404646;
+}
+.footer span {
+	display: inline-block;
+	margin: 30px 0 0 5%;
+  	color: #bbb;
+}
+.wrap-data {
+	margin: 30px 0 30px 5%;
+}
+.wrap-data h1 {
+	margin-bottom: 30px;
+	font-size: 36px;
+	font-weight: 300;
+	color: #616868;
+}
+.list-data + .back {
+	margin-top: 80px;
+}
+.registration label,
+.registration input {
+	display: block;
+}
+.registration label {
+	color: #505757;
+	margin-top: 15px;
+}
+.registration input {
+	width: 250px;
+	padding: 6px;
+	margin-top: 5px;
+	font-size: 14px;
+	border: 1px solid #949b9b;
+}
+.error-valid {
+	font-size: 13px;
+	color:#f2373d;
+}
+.wrap-data .registration input.novalid {
+	padding: 5px;
+	border: 2px solid #ff6666;
+}
+.registration input:hover,
+.registration input:focus {
+	padding: 5px;
+	border: 2px solid #b3dbdd;
+}
+.registration .radio-group {
+	margin: 20px 0 10px 20px;
+}
+.registration .radio-group input,
+.registration .radio-group label {
+	display: inline-block;
+}
+.registration .radio-group label {
+	margin-right: 5px;
+}
+.registration .radio-group input {
+	width: 10px;
+	margin-right: 80px;
+}
+.back,
+.registration input[type="submit"] {
+	width: 264px;
+	padding: 8px 0;
+	border: 2px solid #616868;
+	border-radius: 5px;
+}
+.registration input[type="submit"]:hover {
+	border: 2px solid #838a8a;
+}
+.registration input[type="submit"] {
+	margin-top: 30px;
+	cursor: pointer;
+	background: #b3dbdd;
+	color: #505757;
+}
+.back {
+	margin-top: 10px;
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	text-decoration: none;
+	color: #616868;
+}
+.back:hover {
+	color: #80a8aa;
+}
+.list-data li{
+	list-style: none;
+	color: #505757;
+	margin-bottom: 10px;
+}
+.list-data li span{
+	margin-left: 10px;
+	font-weight: 600;
+}
+.error-block {
+	display: inline-block;
+	list-style: none;
+	padding: 20px 40px 10px 20px;
+	border: 1px solid #ff7575;
+	border-radius: 5px;
+	background: #ffe2e2;
+	color: #ff4b4b;
+}
+.error-block li{
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.sort { 
+	float: right;
+	display: inline-block;
+	margin:  25px 5% 5px 1%;
+	border: 2px solid #616868;
+	border-radius: 5px;
+}
+.sort input{
+	display: inline-block;
+}
+.sort div{
+	min-width: 615px;
+	display: inline-block;
+}
+.sort .add{
+	margin: 3px;
+}
+.sort lable{
+	display: inline-block;
+	margin-left: 2%;
+}
