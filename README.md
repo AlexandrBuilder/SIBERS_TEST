@@ -6,3 +6,5 @@ Test task from Sibers
 <a name="headers"><h2>Начало работы</h2></a>  
 1.Вводим нужные вам параметры авторизации в [(/../application/config/admin.php)](/../application/config/admin.php)
 
+![Image alt](https://prnt.sc/htt7a7)
+
