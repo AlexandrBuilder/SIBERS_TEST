@@ -1,2 +1,2 @@
-# php-framework
-Simple PHP OOP framework based on mvc
+# Siber-Test
+Test task from Sibers
