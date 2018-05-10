@@ -1,10 +1,15 @@
 # Siber-Test
 Test task from Sibers
 
-[Заголовки](#headers) 
+[Beginning of work](#start) 
+[Architecture description](#start) 
 
-<a name="headers"><h2>Начало работы</h2></a>  
-1.Вводим нужные вам параметры авторизации в [(/../application/config/admin.php)](/../application/config/admin.php)
+<a name="start"><h2>Начало работы</h2></a>  
+1.Enter the authorization parameters you need in /../application/config/admin.php (at the moment login: admin, password: 123456789)
+2.Enter the connection parameters with the database in /../application/config/db.php 
+3.We pass to http://{local domain name}/
 
-![Image alt](https://prnt.sc/htt7a7)
+<a name="start"><h2>Начало работы</h2></a> 
+
+
 
