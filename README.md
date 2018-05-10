@@ -1,4 +1,4 @@
-# Siber-Test
+# SIBERS-Test
 Test task from Sibers
 
 [Beginning of work](#start) 
@@ -32,3 +32,5 @@ Test task from Sibers
 - Db.php - class forming connection to the database and queries to it
 - Pagination.php - class forming pagination
 - Dev.php - auxiliary functions for debugging
+
+
