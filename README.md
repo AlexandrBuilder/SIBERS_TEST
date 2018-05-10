@@ -14,5 +14,6 @@ Test task from Sibers
 
 ![Image alt](https://github.com/AlexandrBuilder/image/blob/master/image/architecture.PNG)
 
-
+ACL - Access Control List
+- admin.php-is needed to describe access to pages
 
