@@ -33,4 +33,13 @@ Test task from Sibers
 - Pagination.php - class forming pagination
 - Dev.php - auxiliary functions for debugging
 
+**models** - folder with models
+- admin.php - model for working with users
 
+**views** - folder with templates and separate pages
+- layouts - template folder
+- errors - folder with error templates
+- admin - folder with templates of individual pages of the admin panel
+
+**controllers** - folder with controllers
+- AdminController -  controller for working with users
