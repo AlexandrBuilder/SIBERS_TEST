@@ -14,6 +14,11 @@ Test task from Sibers
 
 ![Image alt](https://github.com/AlexandrBuilder/image/blob/master/image/architecture.PNG)
 
-ACL - Access Control List
-- admin.php-is needed to describe access to pages
+**ACL** - Access Control List
+- admin.php - is needed to describe access to pages
+
+**config** - configuration file
+- admin.php - file of the administrator's login and password
+- db.php - file for specifying connection parameters to the database
+- routes.php - url parameter creation file
 
