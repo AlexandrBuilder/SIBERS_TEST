@@ -11,6 +11,9 @@ Test task from Sibers
 3. We pass to http://{local domain name}/
 
 <a name="start"><h2>Architecture description</h2></a>
+To solve the problem, I built a simple MVC framework. The basic logic is located in application
+
+<h3>Application</h3>
 
 ![Image alt](https://github.com/AlexandrBuilder/image/blob/master/image/architecture.PNG)
 
@@ -42,4 +45,13 @@ Test task from Sibers
 - admin - folder with templates of individual pages of the admin panel
 
 **controllers** - folder with controllers
-- AdminController -  controller for working with users
+- AdminController.php -  controller for working with users
+
+<h3>Public</h3>
+
+Also there is a file of connected in html elements : public 
+
+<h3>index.php</h3>
+
+Point of entry - index.php
+
