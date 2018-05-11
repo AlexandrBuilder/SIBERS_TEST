@@ -49,7 +49,7 @@ To solve the task, I built a simple MVC framework. The basic logic is located in
 
 <h3>Public</h3>
 
-Also there is a file of connected in html elements : public 
+Also there is a file of included in html elements : public 
 
 <h3>index.php</h3>
 
