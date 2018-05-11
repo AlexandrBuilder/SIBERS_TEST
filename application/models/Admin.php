@@ -115,14 +115,18 @@ class Admin extends Model {
 		$params = [
 			'id' => $id,
 			'login' => trim($post['login']),
-			'password' => !empty($post['password']) ? password_hash(trim($post['password']), PASSWORD_BCRYPT) : $post['hash-password'],
 			'first_name' => trim($post['first-name']),
 			'second_name' => trim($post['second-name']),
 			'middle_name' => trim($post['middle-name']),
 			'gender' => $post['gender'],
 			'date' => $post['date'],
 		];
-		$this->db->query('UPDATE users SET login = :login , password = :password , first_name = :first_name, second_name = :second_name , middle_name =       :middle_name, gender = :gender, date = :date WHERE id = :id', $params);
+		if (!empty($post['password'])) {
+			$params['password'] = password_hash(trim($post['password']), PASSWORD_BCRYPT);
+			$query_password = 'password = :password';
+		} else
+			$query_password = '';
+		$this->db->query('UPDATE users SET login = :login , '.$query_password.' , first_name = :first_name, second_name = :second_name , middle_name = :middle_name, gender = :gender, date = :date WHERE id = :id', $params);
 		return $this->db->lastInsertId();
 	}
 
