@@ -11,7 +11,7 @@ Test task from Sibers
 3. We pass to http://{local domain name}/
 
 <a name="architecture"><h2>Architecture description</h2></a>
-To solve the problem, I built a simple MVC framework. The basic logic is located in application
+To solve the task, I built a simple MVC framework. The basic logic is located in application
 
 <h3>Application</h3>
 
