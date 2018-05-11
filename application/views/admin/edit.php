@@ -8,7 +8,6 @@
 		</ul>
 	<?php endif?>
 	<form action="/admin/edit/<?= $user['id'] ?>" method="post" class="registration edit">
-		<input type="hidden" name="hash-password" value="<?php if (isset($user) and $user['password']) echo $user['password']?>">
 		<label for="first-name">Имя</label>
 		<input type="text" id="first-name" name="first-name" class="required" value="<?php if (isset($user) and $user['first_name']) echo htmlspecialchars($user['first_name'], ENT_QUOTES)?>" >
 		<label for="second-name">Фамилия</label>
